@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "x24LyMy4L/R4dfmO3FtTHWPyJi/j2ostEibiDxPGTPoCZraR0miokKdFhfuTtmjxjoSt0fF2z1fp7aZ4o6lsbA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\C1yemore\\Desktop\\WPFBudgedAccounting-main\\WpfBudgedAccounting\\WpfBudgedAccounting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\C1yemore\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

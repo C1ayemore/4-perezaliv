@@ -1,0 +1,36 @@
+﻿<Window x:Class="WpfBudgedAccounting.NoteTypeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfBudgedAccounting"
+        mc:Ignorable="d"
+        Title="NoteTypeWindow" MinHeight="300" MinWidth="500" MaxHeight="300" MaxWidth="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock
+            Grid.Row="0"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Text="Введите тип записи для добавления"
+            />
+        <TextBox x:Name="NoteTypeTxtBx"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Center"
+                 Grid.Row="1"
+                 Width="400"
+            />
+        <Button x:Name="CreateNoteTypeBtn"
+                Content="Создать новый тип записи"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Grid.Row="2"
+                Height="40"
+                Width="200" Click="CreateNoteTypeBtn_Click"
+            />
+    </Grid>
+</Window>
